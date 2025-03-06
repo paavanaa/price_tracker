@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Price Tracker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Price Tracker</h1>
+    
+    <div id="current-product" class="hidden">
+      <h2>Current Product</h2>
+      <div id="product-info"></div>
+      <button id="track-button">Track This Product</button>
+    </div>
+    
+    <div id="tracked-products">
+      <h2>Tracked Products</h2>
+      <div class="controls">
+        <button id="check-prices-button">Check Prices Now</button>
+      </div>
+      <div id="product-list">
+        <p id="no-products">No products tracked yet.</p>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
